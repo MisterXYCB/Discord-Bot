@@ -1,0 +1,754 @@
+{
+    "translate": {
+        "general": {
+            "NO_PERMISSION": {
+                "english": "You dont have the required permissions!",
+                "deutsch": "Du hast nicht die benötigten Berechtigungen!"
+            },
+            "REPLACED": {
+                "english": "The command was replaced with a slash command! To use the command please do `/bot.command`",
+                "deutsch": "Der Befehl wurde durch ein Slash-Command ersetzt! Um den Befehl zu nutzen mach `/bot.command`"
+            },
+            "ERROR": {
+                "english": "Could not perform this action!",
+                "deutsch": "Konnte diese Aktion nicht ausführen!"
+            },
+            "LATER": {
+                "english": "This option will be available in the next update!",
+                "deutsch": "Diese Option wird im nächsten Update verfügbar sein!"
+            }
+        },
+        "help": {
+            "USEAGE": {
+                "english": "bot.prefixhelp <COMMAND_NAME> for help and infos about the command\nbot.prefixhelp for general help and infos!",
+                "deutsch": "bot.prefixhelp <COMMAND_NAME> für hilfe and infos über den command\nbot.prefixhelp für generelle hilfe and infos!"
+            },
+            "DESCRIPTION": {
+                "english": "Helps you in general or with a command!",
+                "deutsch": "Hilft dir generell oder mit einem Command!"
+            },
+            "NO_ALLIASES": {
+                "english": "This command has no aliases!",
+                "deutsch": "Dieser Command hat keine Alias!"
+            },
+            "NO_PERMISSIONS": {
+                "english": "You need no permissions to use this command!",
+                "deutsch": "Du brauchst keine Berechtigungen um diesen Command zu nutzen!"
+            },
+            "NO_USEAGE": {
+                "english": "ERROR: NO USEAGE\nPlease report this as a bug!",
+                "deutsch": "ERROR: NO USEAGE\nBitte als bug melden!"
+            },
+            "NO_DESCRIPTION": {
+                "english": "ERROR: NO DESCRIPTION\nPlease report this as a bug!",
+                "deutsch": "ERROR: NO DESCRIPTION\nBitte als bug melden!"
+            },
+            "FOOTER": {
+                "english": "The current prefix is:",
+                "deutsch": "Der aktuelle prefix ist:"
+            },
+            "COMMANDS": {
+                "english": "For a list off all commands you the `cmd` command!",
+                "deutsch": "Für eine Liste aller commands nutze den `cmd` command!"
+            }
+        },
+        "suggestions": {
+            "USEAGE": {
+                "english": "bot.prefixsuggestions <YOUR_SUGGESTION> to send a suggestion in the suggestion channel!",
+                "deutsch": "bot.prefixsuggestions <DEIN_VORSCHLAG> um deinen Vorschlag in den Vorschläge-Channel zu schicken!"
+            },
+            "DESCRIPTION": {
+                "english": "Lets you suggest something!",
+                "deutsch": "Lässt dich etwas vorschlagen!"
+            },
+            "NO_SUGGESTION_CHANNEL": {
+                "english": "Please ask a Admin to use the `suggestinit` command!",
+                "deutsch": "Bitte frag einen Admin den `suggestinit` command auszuführen!"
+            },
+            "NO_SUGGESTION": {
+                "english": "Plesae type the Suggestion!",
+                "deutsch": "Bitte schreibe deinen Vorschlag!"
+            }
+        },
+        "test": {
+            "TEST_ANSWER": {
+                "english": "test succesful",
+                "deutsch": "test erfogreich"
+            }
+        },
+        "ytsearch": {
+            "USEAGE": {
+                "english": "bot.prefixytsearch <VIDEO_NAME>",
+                "deutsch": "bot.prefixytsearch <VIDEO_NAME>"
+            },
+            "DESCRIPTION": {
+                "english": "This command search you a Youtube video!",
+                "deutsch": "Dieser command sucht dir ein Youtube Video!"
+            },
+            "VIDEO": {
+                "english": "I found a video with this title:",
+                "deutsch": "Ich habe ein Video mit diesem Titel gefunden:"
+            },
+            "NO_VIDEO": {
+                "english": "I found no video!",
+                "deutsch": "Ich habe kein Video gefunden!"
+            },
+            "NO_ARGS": {
+                "english": "What video are you looking for?",
+                "deutsch": "Nach welchem Video suchst du?"
+            }
+        },
+        "setlanguage": {
+            "USEAGE": {
+                "english": "bot.prefixsetlang <LANGUAGE>",
+                "deutsch": "bot.prefixsetlang <SPRACHE>"
+            },
+            "DESCRIPTION": {
+                "english": "This command lets you change the language of the bot!",
+                "deutsch": "Dieser Command lässt dich die Sprache des Bots ändern!"
+            },
+            "DONE": {
+                "english": "I changed the language to `English`",
+                "deutsch": "Ich habe die Sprache auf `Deutsch` geändert!"
+            },
+            "VALID": {
+                "english": "Valid languages are:",
+                "deutsch": "Mögliche Sprachen sind:"
+            },
+            "NO_ARGS": {
+                "english": "You need to type a language!",
+                "deutsch": "Du musst eine Sprache eingeben!"
+            },
+            "NO_PERMISSION": {
+                "english": "You dont have the required permissions!",
+                "deutsch": "Du hast nicht die benötigten Berechtigungen!"
+            }
+        },
+        "clear": {
+            "USEAGE": {
+                "english": "bot.prefixclear <AMOUNT(MAX = 100)>",
+                "deutsch": "bot.prefixclear <ANZAHL(MAX = 100)>"
+            },
+            "DESCRIPTION": {
+                "english": "This command lets you clear a certain amount of messages!",
+                "deutsch": "Dieser Command lässt dich eine bestimmte Anzahl von Nachrichten löschen!"
+            },
+            "DONE": {
+                "english": "I deleted `deleted.amount` messages!",
+                "deutsch": "Ich habe `deleted.amount` Nachrichten gelöscht!"
+            },
+            "NO_ARGS": {
+                "english": "I need a postiv amount!",
+                "deutsch": "Ich brauche eine positive Anzahl"
+            },
+            "NO_PERMISSION": {
+                "english": "I don't have the permission to delete messages!",
+                "deutsch": "Ich habe nicht die Berechtigung Nachrichten zu löschen!"
+            },
+            "FOOTER": {
+                "english": "I can't delete messages that are older than 14 days!",
+                "deutsch": "Ich kann keine Nachrichten löschen die älter als 14 Tage sind!"
+            },
+            "COUNT": {
+                "english": "The message count can only between 1 and 100!",
+                "deutsch": "Die Anzahl muss zwischen 1 und 100 liegen!"
+            }
+        },
+        "mcserver": {
+            "USEAGE": {
+                "english": "bot.prefixmcserver <IP> (PORT)",
+                "deutsch": "bot.prefixmcserver <IP> (PORT)"
+            },
+            "DESCRIPTION": {
+                "english": "This command gives you infos about a server!",
+                "deutsch": "Dieser Command gibt dir Infos über einen Server!"
+            },
+            "NO_IP": {
+                "english": "Please provide an IP!",
+                "deutsch": "BItte gib eine IP an!"
+            },
+            "NO_SERVER": {
+                "english": "I couldn't find a server!",
+                "deutsch": "Ich konnte keinen Server finden!"
+            }
+        },
+        "balance": {
+            "USEAGE": {
+                "english": "bot.prefixbalance (SERVER_MEMBER)",
+                "deutsch": "bot.prefixbalance (SERVER_MITGLIED)"
+            },
+            "DESCRIPTION": {
+                "english": "This command shows you the balance of a member!",
+                "deutsch": "Dieser Command zeigt dir wie viel Geld ein Mitglied hat!"
+            },
+            "WALLET": {
+                "english": "Wallet:",
+                "deutsch": "Portmonee:"
+            },
+            "BANK": {
+                "english": "Bank:",
+                "deutsch": "Konto:"
+            },
+            "NET_WORTH": {
+                "english": "Net Worth:",
+                "deutsch": "Vermögen:"
+            },
+            "ERROR": {
+                "english": "An error occurred!",
+                "deutsch": "Ein fehler ist aufgetreten!"
+            }
+        },
+        "beg": {
+            "USEAGE": {
+                "english": "bot.prefixbeg",
+                "deutsch": "bot.prefixbeg"
+            },
+            "DESCRIPTION": {
+                "english": "This command lets you beg for some coins!",
+                "deutsch": "Dieser Command lässt dich um ein paar Münzen betteln!"
+            },
+            "ANSWER": {
+                "english": "You beged and recieved ₿bot.amount!",
+                "deutsch": "Du hast gebettelt und ₿bot.amount erhalten!"
+            }
+        },
+        "deposit": {
+            "USEAGE": {
+                "english": "bot.prefixdeposit <AMOUNT{ALL for everything}>",
+                "deutsch": "bot.prefixdeposit <MENGE{ALL für alles}>"
+            },
+            "DESCRIPTION": {
+                "english": "This command lets you deposit your coins in your bank!",
+                "deutsch": "Dieser Command lässt dich deine Münzen auf dein Konto einzahlen!"
+            },
+            "ANSWER": {
+                "english": "You deposited ₿bot.amount!",
+                "deutsch": "Du hast ₿bot.amount eingezahlt!"
+            },
+            "OVER_ZERO": {
+                "english": "The amount must be over Zero!",
+                "deutsch": "Die MENGE muss über null sein!"
+            },
+            "TOO_MUCH": {
+                "english": "That is more then you have!",
+                "deutsch": "Das ist mehr als du hast!"
+            }
+        },
+        "give": {
+            "USEAGE": {
+                "english": "bot.prefixgive coins{later xp is possible} <MEMBER> <AMOUNT>",
+                "deutsch": "bot.prefixgive coins{später ist xp möglich} <MITGLIED> <MENGE>"
+            },
+            "DESCRIPTION": {
+                "english": "This command allows you to give mebers coins and (xp later)!",
+                "deutsch": "Dieser Command lässt dich deine Münzen auf dein Konto einzahlen!"
+            },
+            "ANSWER": {
+                "english": "You deposited ₿bot.amount!",
+                "deutsch": "Du hast ₿bot.amount eingezahlt!"
+            },
+            "OVER_ZERO": {
+                "english": "The amount must be over Zero!",
+                "deutsch": "Die Anzahl muss über null sein!"
+            },
+            "TOO_MUCH": {
+                "english": "That is more then you have!",
+                "deutsch": "Das ist mehr als du hast!"
+            }
+        },
+        "g-promote": {
+            "USEAGE": {
+                "english": "bot.prefixg-promote <MEMBER>",
+                "deutsch": "bot.prefixg-promote <MITGLIED>"
+            },
+            "DESCRIPTION": {
+                "english": "This command lets you promote a guild member!",
+                "deutsch": "Dieser Command lässt dich einen Gilden Mitglied befördern!"
+            },
+            "ANSWER": {
+                "english": "You deposited ₿bot.amount!",
+                "deutsch": "Du hast ₿bot.amount eingezahlt!"
+            },
+            "OVER_ZERO": {
+                "english": "The amount must be over Zero!",
+                "deutsch": "Die Anzahl muss über null sein!"
+            },
+            "TOO_MUCH": {
+                "english": "That is more then you have!",
+                "deutsch": "Das ist mehr als du hast!"
+            }
+        },
+        "afk": {
+            "USEAGE": {
+                "english": "bot.prefixafk <REASON>",
+                "deutsch": "bot.prefixafk <GRUND>"
+            },
+            "DESCRIPTION": {
+                "english": "This command lets you go afk!",
+                "deutsch": "Dieser Command lässt dich AFK anzeigen!"
+            },
+            "ANSWER": {
+                "english": "You are now afk!",
+                "deutsch": "Du hast bist nun AFK!!"
+            },
+            "OWNER": {
+                "english": "I can't change the nickname of the owner!",
+                "deutsch": "Ich kann den Nickname des Owners nicht ändern!"
+            }
+        },
+        "messageCreate": {
+            "AFKREASON": {
+                "english": "No reason given!",
+                "deutsch": "Kein Grund angegeben!"
+            }
+        },
+        "adminrole":{
+            "USEAGE": {
+                "english": "bot.prefixadminrole",
+                "deutsch": "bot.prefixadminrole"
+            },
+            "DESCRIPTION":{
+                "english": "This command answers you the current adminrole!",
+                "deutsch": "Dieser Command antwortet dir mit der aktuellen Adminrolle!"
+            },
+            "ANSWER": {
+                "english": "The adminrole is bot.adminrole!",
+                "deutsch": "Die Adminrolle ist bot.adminrole!"
+            },
+            "NO_ROLE": {
+                "english": "The adminrole is not defined!",
+                "deutsch": "Die Adminrolle ist nicht festgelegt!"
+            }
+        },
+        "deletechannel": {
+            "USEAGE": {
+                "english": "bot.prefixdeletechannel <CHANNEL_NAME>",
+                "deutsch": "bot.prefixdeletechannel <KANAL_NAME>"
+            },
+            "DESCRIPTION":{
+                "english": "This command lets you delete a channel!",
+                "deutsch": "Dieser Command lässt dich ein Kanal löschen!"
+            },
+            "ANSWER": {
+                "english": "The adminrole is bot.adminrole!",
+                "deutsch": "Die Adminrolle ist bot.adminrole!"
+            },
+            "NO_CHANNEL": {
+                "english": "The adminrole is not defined!",
+                "deutsch": "Die Adminrolle ist nicht festgelegt!"
+            }
+        },
+        "modrole":{
+            "USEAGE": {
+                "english": "bot.prefixmodrole",
+                "deutsch": "bot.prefixmodrole"
+            },
+            "DESCRIPTION":{
+                "english": "This command answers you the current modrole!",
+                "deutsch": "Dieser Command antwortet dir mit der aktuellen Moderator!"
+            },
+            "ANSWER": {
+                "english": "The modrole is bot.modrole!",
+                "deutsch": "Die Moderatorrolle ist bot.modrole!"
+            },
+            "NO_ROLE": {
+                "english": "The modrole is not defined!",
+                "deutsch": "Die Moderatorrolle ist nicht festgelegt!"
+            }
+        },
+        "ping":{
+            "USEAGE": {
+                "english": "bot.prefixping",
+                "deutsch": "bot.prefixping"
+            },
+            "DESCRIPTION":{
+                "english": "This command sends you the current ping!",
+                "deutsch": "Dieser Command antwortet dir mit dem aktuellem Ping!"
+            }
+        },
+        "bugreport":{
+            "USEAGE": {
+                "english": "bot.prefixbugreport <BUG>",
+                "deutsch": "bot.prefixbugreport <BUG>"
+            },
+            "DESCRIPTION":{
+                "english": "This command answers you the current modrole!",
+                "deutsch": "Dieser Command antwortet dir mit der aktuellen Moderator!"
+            },
+            "ANSWER": {
+                "english": "Your bug (bot.bug) was reported!",
+                "deutsch": "Dein Bug (bot.bug) wurde gemeldet!"
+            },
+            "NO_BUG": {
+                "english": "You need to write your bug!",
+                "deutsch": "Du musst den bug schreiben!"
+            }
+        },
+        "commands":{
+            "USEAGE": {
+                "english": "bot.prefixcommands",
+                "deutsch": "bot.prefixcommands"
+            },
+            "DESCRIPTION":{
+                "english": "This command replies with a list of all commands!",
+                "deutsch": "Dieser Command antwortet mit einer Liste aller Commands!"
+            },
+            "NO_COMMAND": {
+                "english": "This Plugin isn't available yet!",
+                "deutsch": "Dieses Plugin ist noch nicht verfügbar!"
+            },
+            "EMBED_DESC": {
+                "english": "**A list of all commands is down below!\n\n**",
+                "deutsch": "**Hier runter ist eine Liste aller Commands!\n\n**"
+            }
+        },
+        "admincommands":{
+            "USEAGE": {
+                "english": "bot.prefixcommands",
+                "deutsch": "bot.prefixcommands"
+            },
+            "DESCRIPTION":{
+                "english": "This command replies with a list of all commands!",
+                "deutsch": "Dieser Command antwortet mit einer Liste aller Commands!"
+            },
+            "NO_COMMAND": {
+                "english": "This Plugin isn't available yet!",
+                "deutsch": "Dieses Plugin ist noch nicht verfügbar!"
+            },
+            "EMBED_DESC": {
+                "english": "**A list of all commands is down below!\n\n**",
+                "deutsch": "**Hier runter ist eine Liste aller Commands!\n\n**"
+            },
+            "NO_PERMISSION": {
+                "english": "You dont have the required permissions!",
+                "deutsch": "Du hast nicht die benötigten Berechtigungen!"
+            }
+        },
+        "setprefix":{
+            "USEAGE": {
+                "english": "bot.prefixsetprefix <PREFIX>",
+                "deutsch": "bot.prefixsetprefix <PREFIX>"
+            },
+            "DESCRIPTION":{
+                "english": "This command lets you change the prefix!",
+                "deutsch": "Dieser Command lässt dich den Prefix ändern!"
+            },
+            "NO_ARGS": {
+                "english": "The preifx cant be nothing!",
+                "deutsch": "Der Prefix darf nicht nichts sein!"
+            },
+            "ANSWER": {
+                "english": "The prefix has been set to `bot.newprefix`!",
+                "deutsch": "Der Prefix wurde zu `bot.newprefix geänderet`!"
+            }
+        },
+        "setmodrole":{
+            "USEAGE": {
+                "english": "bot.prefixsermodrole <ROLE>",
+                "deutsch": "bot.prefixsetmodrole <ROLLE>"
+            },
+            "DESCRIPTION":{
+                "english": "This command lets you change the modrole!",
+                "deutsch": "Dieser Command lässt dich die Modrolle ändern!"
+            },
+            "NO_ROLE": {
+                "english": "You need to ping a role!",
+                "deutsch": "Du must eine Rolle pingen!"
+            },
+            "ANSWER": {
+                "english": "The modrole has been set to <@&bot.role>!",
+                "deutsch": "Die Modrolle wurde auf <@&bot.role> gesetzt!"
+            }
+        },
+        "setadminrole":{
+            "USEAGE": {
+                "english": "bot.prefixseradminrole <ROLE>",
+                "deutsch": "bot.prefixsetadminrole <ROLLE>"
+            },
+            "DESCRIPTION":{
+                "english": "This command lets you change the adminrole!",
+                "deutsch": "Dieser Command lässt dich die Adminrolle ändern!"
+            },
+            "NO_ROLE": {
+                "english": "You need to ping a role!",
+                "deutsch": "Du must eine Rolle pingen!"
+            },
+            "ANSWER": {
+                "english": "The adminrole has been set to <@&bot.role>!",
+                "deutsch": "Die Adminrolle wurde auf <@&bot.role> gesetzt!"
+            }
+        },
+        "ban":{
+            "USEAGE": {
+                "english": "bot.prefixban <MEMBER> <REASON>",
+                "deutsch": "bot.prefixban <MITGLIED> <GRUND>"
+            },
+            "DESCRIPTION":{
+                "english": "This command bans a member!",
+                "deutsch": "Dieser Command bannt ein Mitglied!"
+            },
+            "NO_MEMBER": {
+                "english": "You need to ping a member!",
+                "deutsch": "Du must eine Mitglied erwähnen!"
+            },
+            "NO_REASON": {
+                "english": "No reason given!",
+                "deutsch": "Kein Grund angegeben!"
+            },
+            "ERROR": {
+                "english": "Could not perform this action!",
+                "deutsch": "Konnte diese Aktion nicht ausführen!"
+            },
+            "SUCCESS": {
+                "english": "I successfully banned bot.member and delete the messages of the last bot.days days with the reason: bot.reason!",
+                "deutsch": "Ich habe bot.member erfolgreich gebannt und die Nachrichten der letzten bot.days Tage gelöscht aus dem Grund: bot.reason!"
+            },
+            "CAN_NOT_BAN": {
+                "english": "I can not ban this member!",
+                "deutsch": "Ich kann dieses Mitglied nicht bannen!"
+            }
+        },
+        "kick":{
+            "USEAGE": {
+                "english": "bot.prefixkick <MEMBER> <REASON>",
+                "deutsch": "bot.prefixkick <MITGLIED> <GRUND>"
+            },
+            "DESCRIPTION":{
+                "english": "This command kicks a member!",
+                "deutsch": "Dieser Command kickt ein Mitglied!"
+            },
+            "NO_MEMBER": {
+                "english": "You need to ping a member!",
+                "deutsch": "Du must eine Mitglied erwähnen!"
+            },
+            "NO_REASON": {
+                "english": "No reason given!",
+                "deutsch": "Kein Grund angegeben!"
+            },
+            "ERROR": {
+                "english": "Could not perform this action!",
+                "deutsch": "Konnte diese Aktion nicht ausführen!"
+            },
+            "SUCCESS": {
+                "english": "I successfully kicked bot.member with the reason: bot.reason!",
+                "deutsch": "Ich habe bot.member erfolgreich gekicket aus dem Grund: bot.reason!"
+            },
+            "CAN_NOT_KICK": {
+                "english": "I can not ban this member!",
+                "deutsch": "Ich kann dieses Mitglied nicht bannen!"
+            }
+        },
+        "suggestioninit":{
+            "USEAGE": {
+                "english": "bot.prefixsuggestioninit",
+                "deutsch": "bot.prefixsuggestioninit"
+            },
+            "DESCRIPTION":{
+                "english": "This command creates the suggestion channels!",
+                "deutsch": "Dieser Command erschafft die suggestion Kanäle!"
+            },
+            "ANSWER": {
+                "english": "You can rename and move the channels!",
+                "deutsch": "Du kannst die Kanäle verschieben und umbenenne!"
+            }
+        },
+        "approve":{
+            "USEAGE": {
+                "english": "bot.prefixapprove <ID>",
+                "deutsch": "bot.prefixapprove <ID>"
+            },
+            "DESCRIPTION":{
+                "english": "This command lets you approve suggestions!",
+                "deutsch": "Dieser Command lässt dich Vorschläge annehmen!"
+            },
+            "ANSWER": {
+                "english": "The suggestion was approved!",
+                "deutsch": "Der Vorschlag wurde angenohmen!"
+            },
+            "NO_CHANNEL": {
+                "english": "Please do the suggestioninit command!",
+                "deutsch": "Bitte nutze den suggestioninit Command!"
+            },
+            "NO_ID": {
+                "english": "That was not a vaild ID!",
+                "deutsch": "Das war keine valide ID!"
+            },
+            "REACTION": {
+                "english": "Reactions:",
+                "deutsch": "Reaktionen:"
+            },
+            "COMMENT":{
+                "english": "Staff comment:",
+                "deutsch": "Staff Kommentar"
+            },
+            "APPROVED": {
+                "english": "Congratulations <@bot.member> your suggestion was accepted!",
+                "deutsch": "Herzlichen Glückwunsch <@bot.member>, dein Vorschlag wurde angenommen!"
+            }
+        },
+        "reject":{
+            "USEAGE": {
+                "english": "bot.prefixreject <ID>",
+                "deutsch": "bot.prefixreject <ID>"
+            },
+            "DESCRIPTION":{
+                "english": "This command lets you reject suggestions!",
+                "deutsch": "Dieser Command lässt dich Vorschläge ablehnen!"
+            },
+            "ANSWER": {
+                "english": "The suggestion was rejected!",
+                "deutsch": "Der Vorschlag wurde abgelehnt!"
+            },
+            "NO_CHANNEL": {
+                "english": "Please do the suggestioninit command!",
+                "deutsch": "Bitte nutze den suggestioninit Command!"
+            },
+            "NO_ID": {
+                "english": "That was not a vaild ID!",
+                "deutsch": "Das war keine valide ID!"
+            },
+            "REACTION": {
+                "english": "Reactions:",
+                "deutsch": "Reaktionen:"
+            },
+            "COMMENT": {
+                "english": "Staff comment:",
+                "deutsch": "Staff Kommentar"
+            },
+            "REJECTED": {
+                "english": "Sorry <@bot.member> your suggestion was rejected!",
+                "deutsch": "Sorry <@bot.member>, dein Vorschlag wurde abgelehnt!"
+            }
+        },
+        "comment":{
+            "USEAGE": {
+                "english": "bot.prefixcomment <ID> <COMMENT>",
+                "deutsch": "bot.prefixcomment <ID> <KOMMENTAR>"
+            },
+            "DESCRIPTION":{
+                "english": "This command lets you comment suggestions!",
+                "deutsch": "Dieser Command lässt dich Vorschläge kommentieren!"
+            },
+            "ANSWER": {
+                "english": "The suggestion was commented!",
+                "deutsch": "Der Vorschlag wurde kommentiert!"
+            },
+            "NO_CHANNEL": {
+                "english": "Please do the suggestioninit command!",
+                "deutsch": "Bitte nutze den suggestioninit Command!"
+            },
+            "NO_ID": {
+                "english": "That was not a vaild ID!",
+                "deutsch": "Das war keine valide ID!"
+            },
+            "COMMENT":{
+                "english": "Staff comment:",
+                "deutsch": "Staff Kommentar"
+            }
+        },
+        "rank": {
+            "USEAGE": {
+                "english": "bot.prefixrank (@MEMBER)",
+                "deutsch": "bot.prefixrank (@MITGLIED)"
+            },
+            "DESCRIPTION":{
+                "english": "This command shows you your rank or the rank form member!",
+                "deutsch": "Dieser Command zeigt dir deinen Rang oder den eines Mitglieds!"
+            }
+        },
+        "xpboost": {
+            "USEAGE": {
+                "english": "bot.prefixxpboost <0.25-5>",
+                "deutsch": "bot.prefixxpboost <0.25-5>"
+            },
+            "DESCRIPTION":{
+                "english": "This command lets you change the xp rate per message!",
+                "deutsch": "Dieser Command läst dich die xp rate pro Nachricht ändern!"
+            },
+            "ARGS": {
+                "english": "Please provide a number between 0.5 and 5!",
+                "deutsch": "Bitte gib eine Nummer zwischen 0.5 und 5 an!"
+            },
+            "ANSWER": {
+                "english": "The xp multiplier has been set to `bot.amount`!",
+                "deutsch": "Der XP-Multiplikator wurde auf `bot.amount`gesetzt!"
+            }
+        },
+        "addlevelreward": {
+            "USEAGE": {
+                "english": "bot.prefixlevelreward <LEVEL> <ROLE>",
+                "deutsch": "bot.prefixlevelreward <LEVEL> <ROLLE>"
+            },
+            "DESCRIPTION":{
+                "english": "This command lets you add a level reward!",
+                "deutsch": "Dieser Command läst dich eine Levelbehlonung hinzufügen!"
+            },
+            "ARGS": {
+                "english": "Please provide a level and a role!",
+                "deutsch": "Bitte gib ein Level und eine Rolle an!"
+            },
+            "ANSWER": {
+                "english": "The <@&bot.role> role has been set as level reward for level `bot.level`!",
+                "deutsch": "Die <@&bot.role> Rolle wurde als Levelbehlohnung für level `bot.level` gesetzt!"
+            }
+        },
+        "slowmode": {
+            "ON": {
+                "english": "I set the slowmode for the bot.channel to bot.time!",
+                "deutsch": "Ich habe den Slowmode für bot.channel auf bot.time gesetzt!"
+            },
+            "OFF": {
+                "english": "I turned the slowmode for bot.channel off!",
+                "deutsch": "Ich habe den Slowmode für bot.channel aus gemacht!"
+            }
+        },
+        "timeout":{
+            "USEAGE": {
+                "english": "bot.prefixtimeout <MEMBER> <DURATION> <REASON>",
+                "deutsch": "bot.prefixtimeout <MITGLIED> <LÄNGE> <GRUND>"
+            },
+            "DESCRIPTION":{
+                "english": "This command timeouts a member!",
+                "deutsch": "Dieser Command timed ein Mitglied aus!"
+            },
+            "ERROR": {
+                "english": "Could not perform this action!",
+                "deutsch": "Konnte diese Aktion nicht ausführen!"
+            },
+            "ADD": {
+                "english": "I successfully time outed bot.member for bot.time with the reason: bot.reason!",
+                "deutsch": "Ich habe bot.member erfolgreich für bot.time getimeouted aus dem Grund: bot.reason!"
+            },
+            "REMOVE": {
+                "english": "I successfully removed the timeout for bot.member!",
+                "deutsch": "Ich habe erfolgreich den Timeout für bot.member aufgehoben!"
+            },
+            "CAN_NOT_BAN": {
+                "english": "I can not timeout this member!",
+                "deutsch": "Ich kann dieses Mitglied nicht time outen!"
+            }
+        },
+        "reactionrole": {
+            "NO_MESSAGE": {
+                "english": "The message was not found!",
+                "deutsch": "Die Nachricht wurde nicht gefunden!"
+            },
+            "NO_EMOJI": {
+                "english": "The emoji is was not found!",
+                "deutsch": "Der Emoji wurde nicht gefunden!"
+            },
+            "SUCCESS": {
+                "english": "The reaction role was successfully added!",
+                "deutsch": "Die Reaktionsrolle wurde erfolgreich hinzugefügt!"
+            },
+            "NO_DATA": {
+                "english": "The reaction role is was not found!",
+                "deutsch": "Die Reacktionsrolle wurde nicht gefunden!"
+            },
+            "REMOVED": {
+                "english": "The reaction role was successfully removed!",
+                "deutsch": "Die Reaktionsrolle wurde erfolgreich gelöscht!"
+            }
+        }
+    }
+}
